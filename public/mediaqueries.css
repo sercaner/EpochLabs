@@ -1,0 +1,177 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+
+    .logo, .menu-links li {
+      transition: none; /* Mobilde hareket animasyonunu kapat */
+      transform: none !important; /* Zorla sıfırla */
+    }
+
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+
+    #projects .about-containers {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-left: 0; /* Soldaki boşluğu sıfırla */
+      margin-right: 0; /* Sağdaki boşluğu sıfırla */
+      padding: 0; /* Varsa iç boşluk sıfırla */
+    }
+    #projects .details-container {
+      /* width: 350px; */ /* Sabit genişlik */
+      margin: 0 auto; /* Ortala */
+      padding: 1.5rem; /* Mevcut iç boşluk korunsun */
+    }
+    #projects .btn-container {
+      gap: 0.3rem; /* Butonlar sıkı */
+    }
+    #projects .btn {
+      padding: 0.6rem; /* Yan yana sığsın */
+      width: 5.5rem; /* Yan yana sığsın */
+    }
+
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    /* navlink degisiklik*/
+    .nav-links {
+      flex-direction: column; /* Hamburger menü için */
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .footer-nav-links {
+      flex-direction: row; /* Footer’da yan yana */
+      gap: 1rem; /* Mobilde boşluk azalsın */
+      justify-content: center;
+      font-size: 1rem;
+      margin: 0;
+    }
+    .footer-nav-links li {
+      transition: none; /* Mobilde hareket yok */
+    }
+    .footer-nav-links a:hover {
+      animation: none; /* Mobilde titreşim yok */
+      color: black;
+    }
+    /* navlink degisiklik*/
+
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+  .about-containers {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 2rem !important;
+    justify-content: center !important;
+  }
+  .details-container {
+    flex: 0 0 calc(41% - 1rem) !important;
+    max-width: calc(41% - 1rem) !important;
+    margin-bottom: 2rem !important;
+  }
+}
+
+/*@media screen and (min-width: 601px) and (max-width: 1400px) {
+  .about-containers {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 2rem !important;
+    justify-content: center !important;
+  }
+  .details-container {
+    flex: 0 0 calc(33.33% - 1.33rem) !important;
+    max-width: calc(33.33% - 1.33rem) !important;
+    margin-bottom: 2rem !important;
+  }
+}

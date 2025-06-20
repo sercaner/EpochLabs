@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epoch Labs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="index.html">Epoch Labs</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#projects">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><a href="index.html">Epoch Labs</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#projects" onclick="toggleMenu()">Products</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/website-daystogo-reminder.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Apps Born to Solve</p>
+        <h1 class="title">Epoch Labs</h1>
+        <p class="section__text__p2" id="app-name"></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/sercaner-cv.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sercanner/'"
+          />
+          <img
+            src="./assets/medium.png"
+            alt="My Medium profile"
+            class="icon"
+            onclick="location.href='https://medium.com/@sercaner.221'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">See What We’ve Solved</p>
+      <h1 class="title">Products</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/cv-yeni-resim.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Smokeless</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                App Store
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Google Play
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Website
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/cv-yeni-resim.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Vocabulario</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              App Store
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Google Play
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Website
+            </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/cv-yeni-resim.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">DaysToGo</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              App Store
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Google Play
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Website
+            </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/cv-yeni-resim.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Frequency Therapy</h2>
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              App Store
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Google Play
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Website
+            </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/cv-yeni-resim.jpeg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Vapeless</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                App Store
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Google Play
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Website
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Discover Our Journey</p>
+      <h1 class="title">About Us</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/website-frequency-therapy.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Development</h3>
+              <p>Ali Kurnaz <br /> </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Growth</h3>
+             <p>Sercan Er<br /> </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              We design and develop digital products with a clear focus on solving real problems. Having launched five applications from idea to release, we’ve built a foundation rooted in vision, consistency, and purpose. Each project helps shape the culture and direction of our company. As we continue to grow, we remain committed to quality, simplicity, and meaningful user experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Two Minds, One Vision</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Backend Development</h3>
+                  <p>Java & Spring Boot, RESTful APIs, Hibernate / JPA, PostgreSQL / MySQL, Docker & Docker Compose</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Frontend Development</h3>
+                  <p>HTML / CSS / JavaScript, TypeScript, React, UI Libraries (Tailwind, Bootstrap)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mobile Development</h3>
+                  <p>Flutter, Dart, Firebase Integration, Push Notifications</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DevOps & Tools</h3>
+                  <p>Git & GitHub, Docker, CI/CD (GitHub Actions, Jenkins), Postman, Swagger</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Software Architecture</h3>
+                  <p>Clean Architecture, MVC / MVVM, SOLID Principles, Design Patterns</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Testing & Quality</h3>
+                  <p>Unit Testing (JUnit, Mockito), Integration Testing, Manual & Automated Testing, Debugging & Logging</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Growth</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Products</h3>
+                  <p><p>Organic Growth, A/B Testing, User Acquisition Strategy, App Monetization</p></p>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>User Experience</h3>
+                  <p>UI/UX, User Retention, Onboarding and Paywall Optimization </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>App Store Optimization</h3>
+                  <p>Keyword Strategy, Localization, Visual Assets (icons, screenshots, previews)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Performance Marketing</h3>
+                  <p>Meta Ads, TikTok Ads, Apple Search Ads, Google Ads</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Analytics & Insights</h3>
+                  <p>Firebase / Google Analytics, Attribution (AppsFlyer, Adjust), Funnel & Cohort Analysis</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Strategy & Vision</h3>
+                  <p>Product Positioning, Go-to-Market Planning, Competitive Analysis</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Mail</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sercanner/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <ul class="nav-links footer-nav-links"> <!-- footer-nav-links eklendi -->
+          <li><a href="#projects">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+        </ul>
+      </nav>
+      <p>Copyright © 2025 Sercan Er. All Rights Reserved.</p>
+      <!--<p>Copyright © 2025 Epoch Labs. All Rights Reserved.</p> -->
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
